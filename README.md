@@ -12,11 +12,11 @@
    
 ## Description
 
-🔍 an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list.
+🔍 
   
 💻 Below is a video of the application:
   
-![social-network-api](./assets/users.gif)
+![social-network-api]()
 
 ## User Story
 
@@ -52,28 +52,37 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 - [Questions](#questions)
 
 ## Installation
-💾   
-  
-`npm init`
-
-`npm install`
+💾  
+* down load Node and MongoDb(please refer to the documentation on how to download and insall it)
+* clone your gitHub repo to your local machine using `git clone <the name of your repo>` 
+* `npm init -y`
+* `npm install express`
+* `npm install mongoose`
+* `npm install moment`
+* `npm install nodemon`
   
 ## Usage
 💻   
   
-`npm start`
+* `npm start`
+    or
+* `node server.js`    
 
-With Nodemon:
+* * With Nodemon:
 
-`npm run watch`
+* `npm run watch`
+     or
+* `nodemon server.js`   
 
 ## Testing
 ✏️
 
-No current testing
+No current testing setup
 
 ## Contributing
 
+feel free to contact me for futrue contrubutions.
+
 
 ## Questions
-✉️ Contact me with any questions: [email]() , [GitHub]()<br />
+✉️ Contact me with any questions: [My-Email](senutekie77@gmail.com) , [My-GitHub](https://github.com/senait77/Social-Network-Api-Unit-18)<br />
