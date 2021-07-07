@@ -7,8 +7,16 @@ const usersController = {
     // Create a new User
     createUsers({body}, res) {
         Users.create(body)
-        .then(dbUsersData => res.json(dbUsersData))
-        .catch(err => res.status(400).json(err));
+        .then((dbUserData) => {
+            res.json(dbUserData)
+        })
+        .catch ((err) => {
+            console.log(err);
+            res.status(500).json()
+        });
+        // .then(dbUsersData => res.json(dbUsersData))
+        // .catch(err => res.status(400).json(err));
+    
     },
 
     // Get All Users
